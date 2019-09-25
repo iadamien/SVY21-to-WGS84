@@ -1,6 +1,6 @@
 library(rgdal)
 
-data <- read.csv("C:/Users/damienliew/OneDrive - Far East Management Pte Ltd/Desktop/Time to TOP/Output1.csv")
+data <- read.csv("")
 x <- data$X.Addr
 y <- data$Y.Addr
 d <- data.frame(lon=x, lat= y)
